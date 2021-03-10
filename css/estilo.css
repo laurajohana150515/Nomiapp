@@ -1,0 +1,280 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body{
+background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    line-height: 18px;
+}
+
+input#email { background-image: url("../imagenes/email.png");}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+
+}
+
+.btn-menu{
+    display: none;
+    padding: 20px;
+    background: #494949;
+    color: #fff
+}
+.btn-menu .icono{
+    float: right;
+}
+.contenedor-menu{
+    width: 20%;
+    min-width: 300px;
+    margin: 50px;
+    display: inline-block;
+    line-height: 18px;
+    font-family: 'Be Vietnam', sans-serif;
+
+}
+.contenedor-menu .menu{
+    width: 100%;
+}
+.contenedor-menu ul{
+    list-style: none;
+}
+.contenedor-menu .menu li a{
+    color: #494949;
+    display: block;
+    padding: 15px 20px;
+    background: #e9e9e9
+}
+.contenedor-menu .menu li a:hover{
+    background: #26676d;
+    color: #FFF;
+}
+
+.contenedor-menu .menu .icono{
+    font-size: 12px;
+    line-height: 18px;
+}
+.contenedor-menu .menu .icono.left{
+    float: left;
+    margin-right: 10px;
+    font-size: 24px;
+}
+.contenedor-menu .menu .icono.right{
+    float: right;
+    margin-right: 10px;
+    font-size: 24px;
+}
+.contenedor-menu .menu ul li a{
+    background: #145056;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #145056,#145056);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #145056, #145056); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #e9e9e9;
+}
+.contenedor-menu .menu ul{
+    display: none;
+}
+.contenedor-menu .menu .activado > a{
+    background: #25686e;
+    color: #FFF;
+}
+@media screen and (max-width: 450px){
+    body{
+        padding-top: 80px;
+    }
+    .contenedor-menu{
+        margin : 0;
+        width: 100%;
+        position: fixed;
+        top:0;
+        z-index: 1000;
+    }
+    .btn-menu{
+        display: block;
+    }
+    .contenedor-menu .menu{
+        display: none;
+    }
+}
+
+
+.contblog{
+	width:85%;
+	margin:auto;
+	display:flex;
+	justify-content:space-evenly;
+	margin-top:15px;
+}
+
+.artblog{
+	width:28%;
+	border:1px solid black;
+	height: 560px;
+}
+
+.artblog img{
+    width:100%;
+    height: 200px;
+}
+
+.artblog span{
+	color:#F78A08;
+	font-size:12px;
+	font-style:Light 300 italic
+}
+
+.textblog{
+	padding-left:10px;
+	padding-right:10px	
+}
+
+#nosotros img{
+    width: auto;
+    height: 100;
+
+}
+
+
+.textblog a{
+    width: 200px;
+	text-align:center;
+	text-decoration:none;
+    background: #145056;
+    padding: 12px 100px;
+    font-size:10px;
+	color:white;
+}
+
+.textblog a:hover{
+    color:#F78A08;
+}
+
+.sectrecom{
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+.contrecom{
+	width:60%;
+	margin:auto;
+}
+.contrecom p{
+	text-align:center;
+}
+
+
+.pie{
+	border-top:solid 3px #145056;
+	padding:20px;
+}
+
+.contpie{
+	width:80%;
+	margin:auto;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.contpie span1{
+	color:#F78A08;
+}
+
+.contpie span2{
+	color: #145056;
+}
+h2{
+	text-align:center;
+}
+
+header{
+    position: fixed; 
+    padding: 2px; 
+    width: 100%; 
+    background-color:#145056;
+    text-align: center;
+    z-index: 10;
+	padding-top:10px;
+}
+
+#imagenlogo{
+    width: 100px;
+    height: 85px;
+}
+
+.titulosh2{
+	width:45%;
+	margin:auto;
+	padding:5px;
+	border-bottom:3px solid black
+}
+
+.contenh{
+	width:80%;
+	margin:auto;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+#btn-navegacion{
+	display: none;
+}
+
+
+.navegacion ul{
+	background-color: #145056;
+	color: white;
+	display: flex;
+	list-style: none;
+	z-index: 5;
+
+}
+
+.navegacion ul ul {
+	display: none;
+
+}
+
+.navegacion a {
+	color: white;
+	display: block;
+	padding: 15px 15px;
+	text-decoration: none;
+
+}
+
+
+.navegacion a:hover {
+	background: #145056;
+}
+
+.navegacion a:visited {
+	color: white;
+}
+
+
+.navegacion ul li:hover ul{
+	display: block;
+	position: absolute;
+}
+
+
+.navegacion a{
+	text-decoration:none;
+	color:#ffffff;
+	margin-right:20px;
+	font-weight:bold;
+	font-size:15px;
+}
+
+.navegacion a:hover{
+	color:#F78A08;
+}

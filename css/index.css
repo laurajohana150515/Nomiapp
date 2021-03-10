@@ -1,0 +1,235 @@
+body{
+	margin:auto;
+	line-height:1.5;
+	font-family: 'Zilla Slab', serif;
+	
+}
+
+
+h2{
+	text-align:center;
+}
+
+header{
+    position: fixed; 
+    padding: 2px; 
+    width: 100%; 
+    background-color:#145056;
+    text-align: center;
+    z-index: 10;
+	padding-top:10px;
+}
+
+#imagenlogo{
+    width: 100px;
+    height: 85px;
+}
+
+.titulosh2{
+	width:45%;
+	margin:auto;
+	padding:5px;
+	border-bottom:3px solid black
+}
+
+.contenh{
+	width:80%;
+	margin:auto;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+#btn-navegacion{
+	display: none;
+}
+
+
+.navegacion ul{
+	background-color: #145056;
+	color: white;
+	display: flex;
+	list-style: none;
+	z-index: 5;
+
+}
+
+.navegacion ul ul {
+	display: none;
+
+}
+
+.navegacion a {
+	color: white;
+	display: block;
+	padding: 15px 15px;
+	text-decoration: none;
+
+}
+
+
+.navegacion a:hover {
+	background: #145056;
+}
+
+.navegacion a:visited {
+	color: white;
+}
+
+
+.navegacion ul li:hover ul{
+	display: block;
+	position: absolute;
+}
+
+
+.navegacion a{
+	text-decoration:none;
+	color:#ffffff;
+	margin-right:20px;
+	font-weight:bold;
+	font-size:15px;
+}
+
+.navegacion a:hover{
+	color:#F78A08;
+}
+
+.sectimg img{
+	width:100%;
+	margin-top:20px;
+}
+
+
+.contmain{
+	width:80%;
+	margin:auto;
+	display:flex;
+	justify-content:space-evenly;
+	padding-top:30px
+}
+
+.artimain{
+	width:25%;
+}
+
+.contimgmain{
+	width:70px;
+	margin:auto;
+	display:flex;
+	justify-content:space-evenly;
+	padding-top:60px;
+}
+
+.contimgmain img{
+	width:100%;
+}
+
+.textmain{
+	text-align:center;
+	padding:10px;
+}
+
+#centro img{
+    width: 28%;
+    height: 560px;
+}
+
+
+.contblog{
+	width:85%;
+	margin:auto;
+	display:flex;
+	justify-content:space-evenly;
+	margin-top:15px;
+}
+
+.artblog{
+	width:28%;
+	border:1px solid black;
+	height: 560px;
+}
+
+.artblog img{
+    width:100%;
+    height: 200px;
+}
+
+.artblog span{
+	color:#F78A08;
+	font-size:12px;
+	font-style:Light 300 italic
+}
+
+.textblog{
+	padding-left:10px;
+	padding-right:10px	
+}
+
+#nosotros img{
+    width: auto;
+    height: 100;
+
+}
+
+
+.textblog a{
+    width: 200px;
+	text-align:center;
+	text-decoration:none;
+    background: #145056;
+    padding: 12px 100px;
+    font-size:10px;
+	color:white;
+}
+
+.textblog a:hover{
+    color:#F78A08;
+}
+
+.sectrecom{
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+.contrecom{
+	width:60%;
+	margin:auto;
+}
+.contrecom p{
+	text-align:center;
+}
+
+
+.pie{
+	border-top:solid 3px #145056;
+	padding:20px;
+}
+
+.contpie{
+	width:80%;
+	margin:auto;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.contpie span1{
+	color:#F78A08;
+}
+
+.contpie span2{
+	color: #145056;
+}
+
+.final a{
+	text-decoration:none;
+	color:black;
+	margin-right:20px;
+	font-size:15px;
+}
+
+.pie a:hover{
+	color:#F78A08;
+}
+

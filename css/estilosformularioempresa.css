@@ -1,0 +1,239 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+
+	background-image:url(../image/fondo2.png);
+	background-repeat: no-repeat,repeat;
+	margin:auto;
+	line-height:1.5;
+	font-family: 'Zilla Slab', serif;
+}
+
+header{
+	position: fixed; 
+    padding: 2px; 
+    width: 100%; 
+    background-color: #34495E;
+    z-index: 10;
+	padding-top:10px;
+}
+
+header #button-menu{
+	font-size: 30px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.navegacion{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 0%;
+	height: 100vh;
+	background: rgba(0,0,0,.0);
+
+}
+
+.navegacion ul{
+	width: 320px;
+	height: 100%;
+	background: #fff;
+	list-style: none;
+
+	position: absolute;
+	top: 0;
+	left: -320px;
+
+	transition: left .3s;
+
+	
+}
+
+.navegacion .menu li.title-menu{
+	padding: 20px;
+	background: #5F6F81;
+	color: #fff;
+	text-align: center;
+	font-size: 22px;
+}
+
+.navegacion .menu a{
+	display: block;
+	padding: 20px;
+	border-bottom: 1px solid #C6D0DA;
+
+	font-size: 22px;
+	font-weight: 200;
+	text-decoration: none;
+	color: #575D69;
+}
+
+.navegacion .menu a:hover{
+	background: #798DA3;
+	color: #fff;
+}
+
+.navegacion .menu li span.icon-menu{
+	margin-right: 12px;
+}
+
+.navegacion .menu .item-submenu > a::after{
+	font: normal normal normal 14px/1 FontAwesome;
+  	font-size: inherit;
+  	text-rendering: auto;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+	content: '\f105';
+
+	float: right;
+	color: #C5C5C5;
+}
+
+/* Submenu ============*/
+
+.navegacion .submenu li.title-menu{
+	background: #fff;
+	color: #575D69;
+}
+
+.navegacion .submenu li.go-back{
+	padding: 10px 20px;
+	background: #5F6F81;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.navegacion .submenu li.go-back::before{
+	font: normal normal normal 14px/1 FontAwesome;
+  	font-size: inherit;
+  	text-rendering: auto;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+	content: '\f0d9';
+	margin-right: 10px;
+}
+
+@media screen and (max-width: 320px){
+	.navegacion ul{
+		width: 100%;
+	}
+}
+/* CSS FORMULARIO EMPRESA========================================================================================*/
+
+h1{
+	font-family:SF Pro Display;
+	text-align: center;
+	color: #145056;
+	padding: 10px;
+  }
+
+  .form-register {
+	width: 900px;
+  
+	background: #145056;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: white;
+	box-shadow: 7px 13px 37px #145056;
+  }
+  
+.form-register h4 {
+	font-size: 22px;
+	margin-bottom: 20px;
+  }
+  
+  .controls {
+	width: 100%;
+	background:#F7EDEB;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #FFFFFF;
+	font-family: 'calibri';
+	font-size: 18px;
+	color: rgb(15, 15, 15);
+  }
+  
+.form-register p {
+	height: 40px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px;
+  }
+  
+  .form-register a {
+	color: white;
+	text-decoration: none;
+  }
+  
+.form-register a:hover {
+	color: white;
+	text-decoration: underline;
+  }
+  
+  .form-register .botons {
+	width: 100%;
+	background: #FFFFFF;
+	border: none;
+	padding: 12px;
+	color: #145056;
+	margin: 16px 0;
+	font-size: 16px;
+  }
+  
+
+.navegacion a:hover{
+	color:#F78A08;
+}
+
+.sectimg img{
+	width:100%;
+	margin-top:20px;
+}
+
+button{
+  background-color: #145056;
+  
+}
+
+
+/* CSS PIE DE PAGINA========================================================================================*/
+
+.pie{
+	border-top:solid 3px #145056;
+	padding:20px;
+}
+
+.contpie{
+	width:80%;
+	margin:auto;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.contpie span1{
+	color:#F78A08;
+}
+
+.contpie span2{
+	color: #145056;
+}
+
+.final a{
+	text-decoration:none;
+	color:black;
+	margin-right:20px;
+	font-size:15px;
+}
+
+.pie a:hover{
+	color:#F78A08;
+}

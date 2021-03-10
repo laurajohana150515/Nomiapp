@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	margin:auto;
+	line-height:1.5;
+	font-family: 'Zilla Slab', serif;	
+}
+
+
+h2{
+	text-align:center;
+}
+
+header{
+    position: fixed; 
+    padding: 2px; 
+    width: 100%; 
+    background-color:#145056;
+    text-align: center;
+    z-index: 10;
+	padding-top:10px;
+}
+
+#imagenlogo{
+    width: 100px;
+    height: 85px;
+}
+
+.titulosh2{
+	width:45%;
+	margin:auto;
+	padding:5px;
+	border-bottom:3px solid black
+}
+
+.contenh{
+	width:80%;
+	margin:auto;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+#btn-navegacion{
+	display: none;
+}
+
+
+.navegacion ul{
+	background-color: #145056;
+	color: white;
+	display: flex;
+	list-style: none;
+	z-index: 5;
+
+}
+
+.navegacion ul ul {
+	display: none;
+
+}
+
+.navegacion a {
+	color: white;
+	display: block;
+	padding: 15px 15px;
+	text-decoration: none;
+
+}
+
+
+.navegacion a:hover {
+	background: #145056;
+}
+
+.navegacion a:visited {
+	color: white;
+}
+
+
+.navegacion ul li:hover ul{
+	display: block;
+	position: absolute;
+}
+
+
+.navegacion a{
+	text-decoration:none;
+	color:#ffffff;
+	margin-right:20px;
+	font-weight:bold;
+	font-size:15px;
+}
+
+.navegacion a:hover{
+	color:#F78A08;
+}
+
+.sectimg img{
+	width:100%;
+    margin-top:20px;
+    
+
+
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tabla{
+    width: 90%;
+    height: 900px;
+    margin: auto;
+    border: 1px solid #343759;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #343759;
+    padding: 70px;
+    text-align: center;
+    flex-grow: 1;
+    color: #343759;
+}
+
+.tabla>h2{
+    font-size: 30px;
+    margin-bottom:35px;
+}
+
+.tabla img{
+    width: 64px;
+    margin-bottom: 35px;
+}
+
+.tabla>h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.tabla>p{
+   display: block;
+   margin-bottom: 20px; 
+}
+
+.boton{
+    display: inline-block;
+    width:150px;
+    padding: 12px;
+    background: #a5f059;
+    text-decoration: none;
+    color: #343759;
+    border-radius: 100px;
+    text-align: center;
+    font-size:14px;
+    font-weight: 600;
+    margin:auto;
+    cursor: pointer;
+}
+
+.tabla:hover{
+    background: #343759;
+    color: #f1f1f2;
+    transition: 0.5s all;
+    transform: scale(1.1);
+}
+
+
